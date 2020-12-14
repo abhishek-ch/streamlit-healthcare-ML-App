@@ -126,7 +126,8 @@ pyspark_enabled = st.sidebar.radio("PySpark_Enabled", ('No', 'Yes'))
 
 
 def main():
-    st.title('Streamlit with Healthcare Data')
+    st.title(
+        '''Streamlit ![](https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e0a328bedb754beb8a973f9_logomark_website.png) Healthcare ML Data App''')
     st.subheader(
         'Streamlit Healthcare example By '
         '[Abhishek Choudhary aka ABC](https://www.linkedin.com/in/iamabhishekchoudhary/)')
